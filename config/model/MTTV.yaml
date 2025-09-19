@@ -1,0 +1,7 @@
+name: MTTV
+K: 1
+m: 0.9
+gaussian_factor: 0.1
+mode: ""
+upper_bound: 0.9
+lower_bound: 0.1

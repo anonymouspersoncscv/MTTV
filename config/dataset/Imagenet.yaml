@@ -1,0 +1,17 @@
+name: Imagenet
+data_dir: #Path to your Dataset
+save_path: #Path to save the backbone
+text_dir: #Path to ImageNet_LT_train.txt
+
+crop_max: 1
+image_size: 224
+
+imbalance: True
+imbalance_type: pareto
+dataset_size: 115846
+sample_size: 0.25
+
+num_classes: 1000
+drop_last: True
+mean: [0.485,0.456,0.406]
+std: [0.229,0.224,0.225]

@@ -1,0 +1,12 @@
+defaults:
+  - _self_
+  - dataset: Imagenet
+  - model: OurV3
+  - backbone: resnet50
+  - training: pretraining
+  - post_training: linear_evaluation
+  - imbalance: imbalance
+  - feature: feature
+  - transfer_learning: transfer
+
+project_name: Feature Manipulations

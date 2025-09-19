@@ -1,0 +1,16 @@
+name: Cifar100
+data_dir: #Path to your Dataset
+save_path: #Path to save the backbone
+filepath: results/MeanWeights
+
+crop_max: 1
+image_size: 32
+
+imbalance: True
+imbalance_factor: 0.01
+imbalance_type: exp
+
+num_classes: 100
+drop_last: True 
+mean: [0.5071, 0.4867, 0.4408] 
+std: [0.2675, 0.2565, 0.2761]

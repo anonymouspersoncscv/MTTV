@@ -1,0 +1,3 @@
+transfer_learning: False
+dataset: Imagenet
+loading_point: 300

@@ -1,0 +1,14 @@
+name: Cifar10
+data_dir: #Path to your Dataset
+save_path: #Path to save the backbone
+crop_max: 1
+image_size: 32
+
+imbalance: True
+imbalance_factor: 0.01
+imbalance_type: exp
+
+num_classes: 10
+drop_last: True
+mean: [0.491, 0.482, 0.447]
+std: [0.247, 0.243, 0.262]

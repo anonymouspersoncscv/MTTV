@@ -1,0 +1,7 @@
+name: Simclr
+hidden_size: 512
+projection_size: 128
+temperature: 0.5
+gaussian_factor: 0.1
+K: 2
+mode: ""
